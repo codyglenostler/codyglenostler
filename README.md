@@ -1,25 +1,40 @@
 # Cody Ostler
 
-I build practical software around sports data, connected vehicles, and everyday workflows. I'm pursuing a master's degree in Applied Artificial Intelligence and working toward applied AI and Forward Deployed Engineering roles.
+**Data applications · API integrations · Applied AI**
 
-My projects connect data sources, APIs, and interfaces to a specific problem. This profile highlights three different parts of that work: analytics and modeling, product integration, and local-first application design.
+I build software that connects data, services, and useful interfaces—from MLB analytics to connected-vehicle experiences and everyday tools. I'm pursuing a master's degree in Applied Artificial Intelligence at Utah Valley University, with a background in data analysis and Information Systems focused on Business Intelligence.
 
-## Selected projects
+I'm working toward hands-on roles in applied AI, data applications, and integration engineering. The projects below show the software, technical decisions, and testing behind that work.
 
-| Project | What it does | Where to look |
-| --- | --- | --- |
-| **[Baseball App](https://github.com/codyglenostler/baseball-app)** | MLB dashboards, live game views, 3D ball-flight visualization, and experimental fantasy projections. React + Python/FastAPI. | [Demo](https://codyglenostler.github.io/baseball-app/) · [Architecture and decisions](https://github.com/codyglenostler/baseball-app#engineering-decisions) · [Model evaluation](https://github.com/codyglenostler/baseball-app/blob/main/docs/MODEL_EVALUATION.md) |
-| **[Ludic Pulse Web](https://github.com/codyglenostler/ludicpulse-web)** | The public web surface for a Tesla companion app, including a private Shared ETA recipient experience and Tesla account-linking callback. JavaScript + Apple MapKit JS. | [Website](https://ludicpulse.com) · [Shared ETA case study](https://github.com/codyglenostler/ludicpulse-web/blob/main/docs/SHARED_ETA_CASE_STUDY.md) |
-| **[Workout Tracker](https://github.com/codyglenostler/workout-tracker)** | A phone-friendly training log with browser-local storage, a weekly program, and optional cloud backup and restore. Next.js + TypeScript + IndexedDB. | [Demo](https://workout-tracker-two-beta.vercel.app) · [Design tradeoffs](https://github.com/codyglenostler/workout-tracker#engineering-decisions) |
+## Selected work
 
-## What I'm developing next
+### 1. Baseball App — data pipelines and interactive analytics
 
-- **Applied AI:** reproducible model evaluation, meaningful baselines, and clear boundaries between exploratory results and validated predictions.
-- **Deployment engineering:** reliable integrations, useful failure states, and documentation that makes systems easier to run and understand.
-- **Product development:** small, usable tools built around a concrete workflow.
+An MLB dashboard combining scheduled Python data jobs, public APIs, live game views, and a 3D ball-flight visualization. The fantasy projection component includes an explicit evaluation plan and documented limitations.
 
-## About the work
+**Python · FastAPI · React · Three.js · GitHub Actions**  
+[Try the dashboard](https://codyglenostler.github.io/baseball-app/) · [Explore the code](https://github.com/codyglenostler/baseball-app) · [Engineering decisions](https://github.com/codyglenostler/baseball-app#engineering-decisions) · [Model evaluation](https://github.com/codyglenostler/baseball-app/blob/main/docs/MODEL_EVALUATION.md)
 
-These are personal projects developed with AI coding assistance. The repositories link to implementation details, tests, and known limitations so the work can be evaluated beyond a feature list. The individual project READMEs distinguish what is available in public source from private services and features that still need validation.
+### 2. Ludic Pulse Web — browser integrations and privacy
 
-**Start with Baseball App for analytics, Ludic Pulse Web for integrations, or Workout Tracker for local-first design.**
+The public website and browser clients for a Tesla companion product. Its Shared ETA client handles time-limited trip links, token handoff, route selection, and network failure states. The case study connects those constraints to implementation and tests.
+
+**JavaScript · Web Workers · Apple MapKit JS · Vercel**  
+[Visit the website](https://ludicpulse.com) · [Explore the code](https://github.com/codyglenostler/ludicpulse-web) · [Read the Shared ETA case study](https://github.com/codyglenostler/ludicpulse-web/blob/main/docs/SHARED_ETA_CASE_STUDY.md)
+
+### 3. Workout Tracker — practical product and storage design
+
+A mobile workout log with browser-local storage, completed-workout history, and optional cloud backup and restore. Its documentation explains offline behavior, queued writes, and the limits of synchronization across devices.
+
+**TypeScript · Next.js · IndexedDB · Dexie · Supabase**  
+[Try the app](https://workout-tracker-two-beta.vercel.app) · [Explore the code](https://github.com/codyglenostler/workout-tracker) · [Storage decisions](https://github.com/codyglenostler/workout-tracker#engineering-decisions)
+
+## What I'm working on
+
+- **Applied AI evaluation:** chronological holdouts, meaningful baselines, and reproducible results for the baseball projection work.
+- **Reliable integrations:** explicit failure states, data freshness, and clear boundaries between browser clients and external services.
+- **Useful products:** focused workflows that can be tried, inspected, and explained.
+
+## About these projects
+
+These are personal projects developed with AI coding assistance. Each featured repository includes a walkthrough, architecture, source map, setup instructions, and known limitations. The public Ludic Pulse repository covers the website and browser clients; the iPhone app and cloud API are separate. Baseball projections remain experimental, and Workout Tracker's cloud feature is optional backup and restore.

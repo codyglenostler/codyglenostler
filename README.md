@@ -22,7 +22,19 @@ The public website and browser clients for a Tesla companion product. Its Shared
 **JavaScript · Web Workers · Apple MapKit JS · Vercel**  
 [Visit the website](https://ludicpulse.com) · [Explore the code](https://github.com/codyglenostler/ludicpulse-web) · [Read the Shared ETA case study](https://github.com/codyglenostler/ludicpulse-web/blob/main/docs/SHARED_ETA_CASE_STUDY.md)
 
-### 3. Workout Tracker — practical product and storage design
+### 3. Ludic Cabin — Java, Android, and Bluetooth integration
+
+A native Android tablet interface for vehicle climate, seat heat, and media. The public case study shows the implemented interface and explains authenticated sessions, connection recovery, state freshness, and the distinction between command acknowledgement and vehicle readback.
+
+**Java · Android · Go · Bluetooth Low Energy · Automated testing**
+
+[View screenshots and walkthrough](https://github.com/codyglenostler/codyglenostler/tree/main/projects/ludic-cabin) · [Engineering decisions](https://github.com/codyglenostler/codyglenostler/tree/main/projects/ludic-cabin#engineering-walkthrough)
+
+<a href="https://github.com/codyglenostler/codyglenostler/tree/main/projects/ludic-cabin"><img src="https://raw.githubusercontent.com/codyglenostler/codyglenostler/main/projects/ludic-cabin/images/climate.png" alt="Ludic Cabin Climate interface with clearly marked synthetic emulator readings" width="560"></a>
+
+*Implemented Android UI, captured with a synthetic emulator test fixture. More screens and verification boundaries are in the case study.*
+
+### 4. Workout Tracker — practical product and storage design
 
 A mobile workout log with browser-local storage, completed-workout history, and optional cloud backup and restore. Its documentation explains offline behavior, queued writes, and the limits of synchronization across devices.
 
@@ -37,4 +49,4 @@ A mobile workout log with browser-local storage, completed-workout history, and 
 
 ## About these projects
 
-These are personal projects developed with AI coding assistance. Each featured repository includes a walkthrough, architecture, source map, setup instructions, and known limitations. The public Ludic Pulse repository covers the website and browser clients; the iPhone app and cloud API are separate. Baseball projections remain experimental, and Workout Tracker's cloud feature is optional backup and restore.
+These are personal projects developed with AI coding assistance. The public application repositories include walkthroughs, architecture, source maps, setup instructions, and known limitations. Ludic Cabin has a public screenshot and engineering case study; its application source remains private. The public Ludic Pulse repository covers the website and browser clients; the iPhone app and cloud API are separate. Baseball projections remain experimental, and Workout Tracker's cloud feature is optional backup and restore.
